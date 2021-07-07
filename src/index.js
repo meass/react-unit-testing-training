@@ -1,12 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import KendoListView from './components/KendoListView';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import KendoReact from './components/KendoButton';
+// import KendoComboBox from './components/KendoComboBox';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <KendoReact /> */}
+    {/* <KendoComboBox /> */}
+    <KendoListView />
   </React.StrictMode>,
   document.getElementById('root')
 );
